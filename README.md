@@ -1,4 +1,4 @@
-# Printer 🌊
+# 🌊 Printer: Risk-Free Passive Income for NFT Owners
 Print your NFTs and sell them in the metaverse!
 
 ## How to print your NFTs
