@@ -3,7 +3,7 @@ Print your NFTs and sell them in the metaverse!
 
 ## How to print your NFTs
 
-The Printer contract is located at [0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC](https://etherscan.io/address/0xf810d0268f6e7f2c893f0dd5dd1ea6797db40cec).
+The Printer contracts are deployed on [Mainnet](https://etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Ropsten](https://ropsten.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Optimism](https://optimistic.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Optimistic Kovan](https://kovan-optimistic.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), and more to come.
 Please interact with the contract from the Etherscan interface.
 
 ### 1. Deposit an NFT
@@ -15,6 +15,8 @@ Use the ERC-721's `safeTransferFrom` method and set `_to` to the address of the 
 The `onERC721Received` method of the Printer contract is invoked by the NFT contract when you use the `safeTransferFrom` method.
 If you ever use the ERC-721's `transferFrom` method, you will lose the NFT forever.
 `onERC721Received` is intended to be used by smart contracts, so you should never touch it.
+Please be aware that smart contract addresses for Printer may be different for each network.
+If you transfer an NFT to the wrong address, you will lose it.
 When you deposit an NFT, the ownership is temporarily transferred to the Printer contract, but you can withdraw the NFT at any time.
 Unlike [Fractional](https://fractional.art/), Printer allows you to trade an NFT for fungible tokens without losing ownership of it.
 
@@ -38,3 +40,4 @@ Once you have withdrawn the NFT, you can no longer print the NFT.
 If you want to print it, deposit it again.
 
 Follow me on Twitter [@sharimot](https://twitter.com/sharimot) for up-to-date information on Printer!
+If you have any questions, please submit issues.
