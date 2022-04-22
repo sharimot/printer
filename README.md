@@ -3,7 +3,7 @@ Print your NFTs and sell them in the metaverse!
 
 ## How to print your NFTs
 
-The Printer contracts are deployed on [Mainnet](https://etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Ropsten](https://ropsten.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Optimism](https://optimistic.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Optimistic Kovan](https://kovan-optimistic.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), and more to come.
+The Printer contracts are deployed on [Mainnet](https://etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Ropsten](https://ropsten.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Optimism](https://optimistic.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Optimistic Kovan](https://kovan-optimistic.etherscan.io/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), [Polygon](https://polygonscan.com/address/0xF810d0268F6E7f2c893f0dd5Dd1eA6797db40cEC), and more to come.
 Please interact with the contract from the Etherscan interface.
 
 ### 1. Deposit an NFT
